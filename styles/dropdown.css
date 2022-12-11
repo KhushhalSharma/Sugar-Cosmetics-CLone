@@ -1,0 +1,21 @@
+#drop-menu {
+    color: black;
+    position: absolute;
+    top: 205%;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    visibility: hidden;
+    transition: 1000 all ease;
+
+}
+
+
+#lists>ul>li:hover #drop-menu {
+    color: white;
+    visibility: visible;
+}

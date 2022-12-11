@@ -1,0 +1,16 @@
+#hot-deals{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    gap: 30px;
+    margin: 3%auto;
+    padding: 39px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#hot-deals>div>img{
+    width: 90%;
+}
+

@@ -1,0 +1,56 @@
+
+
+#best-sellers{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;   
+    height: 469px;
+    margin:3% auto;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#best-sellers>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+#best-sellers>div>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 17px;
+}
+
+#best-sellers>div>div>p{
+    text-align: center;
+    font-size: 15px;
+}
+
+#best-sellers>div>div>button{
+    padding: 3px 20px;
+    background-color: transparent;
+    border: 1px solid grey;
+    background-color: black;
+    color: white;
+}
+#best-sellers>div>div>button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+#best-sellers>div>img{
+    width: 70%;
+}
+
+
+
+
+

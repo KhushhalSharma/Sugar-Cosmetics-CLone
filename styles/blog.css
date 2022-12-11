@@ -1,0 +1,15 @@
+
+#Blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    width: 90%;
+    margin:20px auto;
+    place-items: center;
+}
+
+#Blog>img{
+    width: 90%;
+}
+
+

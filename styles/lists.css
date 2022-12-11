@@ -1,0 +1,22 @@
+#lists {
+    background-color: black;
+    height: 76px;
+    padding: 30px 50px;
+}
+
+
+#lists>ul {
+    display: flex;
+    color: white;
+    list-style: none;
+    gap: 70px;
+    position: relative;
+    cursor: pointer;
+}
+#lists>ul>li:hover{
+    color: gray;
+}
+
+#drop-menu :hover{
+    color: grey;
+}

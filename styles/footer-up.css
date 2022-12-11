@@ -1,0 +1,34 @@
+
+#footer_up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+#footer_up>div{
+    text-align: center;
+}
+
+#footer_up>div>div{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+#footer_up>div>div>input{
+    width: 90%;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid;
+}
+
+
+#footer_up>div>div>button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}

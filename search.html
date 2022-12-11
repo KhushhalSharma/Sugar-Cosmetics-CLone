@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy Beauty Products at SUGAR Cosmetics Online Store</title>
+    <link
+      rel="icon"
+      href="https://1000logos.net/wp-content/uploads/2020/07/SUGAR-Cosmetics-Logo1.jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <style>
+      #products {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+
+      #products > div {
+        display: flex;
+        height: 400px;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+      }
+
+      #products > div > p {
+        text-align: center;
+      }
+
+      #products > div > img {
+        width: 25%;
+      }
+
+      #products > div > button {
+        padding: 4px 20px;
+        background: white;
+        color: black;
+      }
+
+      #products > div > button:hover {
+        background: black;
+        color: white;
+      }
+      button {
+        padding: 4px 10px;
+        margin: 20px 5px;
+        background: white;
+        color: black;
+      }
+      button:hover {
+        background: black;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav id="nav"></nav>
+    <div>
+      <button id="low">Price : Low TO High</button>
+      <button id="high">Price : High To Low</button>
+    </div>
+    <div id="baseProducts">
+      <div id="products"></div>
+    </div>
+
+    <script type="module" src="./search.js"></script>
+  </body>
+</html>

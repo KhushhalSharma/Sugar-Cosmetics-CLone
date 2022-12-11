@@ -1,0 +1,14 @@
+
+#thisThat{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    margin:20px auto;
+}
+
+#thisThat>img{
+    width: 100%;
+}

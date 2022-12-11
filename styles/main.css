@@ -1,0 +1,648 @@
+@import "nav.css";
+@import "inputs.css";
+@import "login.css";
+@import "icons.css";
+@import "lists.css";
+@import "dropdown.css";
+@import "best-seller.css";
+@import "hot-deals.css";
+@import "just_in.css";
+@import "gifting.css";
+@import "top_picks.css";
+@import "savers.css";
+@import "skinCare.css";
+@import "thisThat.css";
+@import "blog.css";
+@import "footer-up.css";
+@import "footer.css";
+@import "carosels.css";
+
+
+
+
+/* ***************************************************************************************************************************************************** */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,'Segoe UI',Helvetica, Arial, sans-serif
+}
+
+#logo>img {
+    width: 72%;
+}
+
+h1 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+#youTube {
+    width: 90%;
+    margin: 37px auto;
+}
+
+#referal {
+    width: 90%;
+    display: block;
+    margin: 37px auto;
+}
+
+#newLaunch {
+    width: 90%;
+    display: block;
+    margin: 37px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    width: 90%;
+    height: 331px;
+    margin: 6% auto;
+    position: relative;
+}
+
+
+
+span {
+    position: absolute;
+    top: -15%;
+    left: 85%;
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+span:nth-of-type(2) {
+    left: 98%;
+    text-align: right;
+}
+
+section {
+    height: 300px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+section>div {
+    min-width: 330px;
+    height: 200px;
+    position: relative;
+    margin: 10px 60px;
+    color: white;
+    transition: 0.5s;
+}
+
+section>div>img{
+    width: 50%;
+}
+/* 
+@media all and (min-width:299px) and (max-width:315px){
+    nav {
+        display: flex;
+        background: black;
+        align-items: center;
+        width: 360%;
+        justify-content:space-around;
+    }
+    
+    #btn{
+        cursor: pointer;
+    }
+
+    nav>#logo{
+        width: 129px;
+    }
+} */
+
+
+
+
+@media all and (min-width:315px) and (max-width:400px){
+    nav {
+        display: flex;
+        background: black;
+        align-items: center;
+        width: 100%;
+        justify-content:space-around;
+        font-size: 5px;
+    }
+    
+    #btn{
+        cursor: pointer;
+    }
+
+    nav>#icons>:nth-child(1){
+        display: none;
+    }
+    nav>#icons>:nth-child(3){
+        display: none;
+    }
+
+    nav>#logo{
+        width: 70px;
+    }
+
+    #lists{
+       display: none;
+    }
+
+    #carousel{
+        width: 100%;
+    }
+    span:nth-of-type(2) {
+        left: 89%;
+    }
+
+    span:nth-of-type(1) {
+        position: absolute;
+        top: -15%;
+        left: 5%;
+        font-size: 80px;
+        font-weight: bold;
+        color: black;
+        cursor: pointer;
+    }
+
+    #best-sellers{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        height: 2213px;
+        width: 100%;
+    }
+    #hot-deals{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        height: 729px;
+        width: 100%;
+        
+    }
+    #hot-deals>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #just-in{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        height: 2213px;
+        width: 100%;
+    }
+
+    #just-in>div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #youTube{
+        width: 100%;
+    }
+    #topPicks{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        height: 729px;
+        width: 100%;
+        margin: 0px 22px;
+    }
+    #gifting{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4,1fr);
+        height: 2213px;
+        width: 100%;
+    }
+    #gifting>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #referals{
+        width: 100%;
+    }
+    #carousel2{
+        width: 100%;
+    }
+
+    #skinCare{
+        display: grid;
+        grid-template-rows: repeat(4,1fr);
+        grid-template-columns: 1fr;
+    }
+    #thisThat{
+        width: 100%;
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #thisThat>img{
+        display: block;
+        margin: auto;
+    }
+    #Blog{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #carousel3{
+        width: 100%;
+    }
+    #main{
+        width: 100%;
+    }
+    #footer_up{
+        width: 100%;
+    }
+    #footer{
+        display: none;
+    }
+    #footer_up>h3{
+        text-align: center;
+    }
+
+    #products{
+      display: grid;
+      width: 108%;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+    }
+    
+    
+    #append>div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+    }
+    #savers{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media all and (min-width:400px) and (max-width:515px){
+    nav {
+        display: flex;
+        background: black;
+        align-items: center;
+        width: 268.4%;
+        justify-content:space-around;
+    }
+    
+    #btn{
+        cursor: pointer;
+    }
+
+    nav>#logo{
+        width: 129px;
+    }
+
+    #lists{
+         width: 268.4%;
+    }
+
+    #carousel{
+         width: 268.4%;
+    }
+
+    #best-sellers{
+         width: 268.4%;
+    }
+    #hot-deals{
+         width: 268.4%;
+    }
+    #just-in{
+         width: 268.4%;
+    }
+    #youTube{
+         width: 268.4%;
+    }
+    #topPicks{
+         width: 268.4%;
+    }
+    #gifting{
+         width: 268.4%;
+    }
+    #referals{
+         width: 268.4%;
+    }
+    #carousel2{
+         width: 268.4%;
+    }
+    #thisThat{
+         width: 268.4%;
+    }
+    #Blog{
+         width: 268.4%;
+    }
+    #carousel3{
+         width: 268.4%;
+    }
+    #main{
+         width: 268.4%;
+    }
+    #footer_up{
+         width: 268.4%;
+    }
+    #footer{
+         width: 268.4%;
+    }
+    
+}
+
+
+
+@media all and (min-width:515px) and (max-width:615px){
+    nav {
+        display: flex;
+        background: black;
+        align-items: center;
+        width: 268.4%;
+        justify-content:space-around;
+    }
+    
+    #btn{
+        cursor: pointer;
+    }
+
+    nav>#logo{
+        width: 129px;
+    }
+    #lists{
+        width: 268.4%;
+   }
+
+   #carousel{
+        width: 268.4%;
+   }
+
+   #best-sellers{
+        width: 268.4%;
+   }
+   #hot-deals{
+        width: 268.4%;
+   }
+   #just-in{
+        width: 268.4%;
+   }
+   #youTube{
+        width: 268.4%;
+   }
+   #topPicks{
+        width: 268.4%;
+   }
+   #gifting{
+        width: 268.4%;
+   }
+   #referals{
+        width: 268.4%;
+   }
+   #savers{
+    width: 268%;
+   }
+
+   #skinCare{
+    width: 268%;
+   }
+   #carousel2{
+        width: 268.4%;
+   }
+   #thisThat{
+        width: 268.4%;
+   }
+   #Blog{
+        width: 268.4%;
+   }
+   #carousel3{
+        width: 268.4%;
+   }
+   #main{
+        width: 268.4%;
+   }
+   #footer_up{
+        width: 268.4%;
+   }
+   #footer{
+        width: 268.4%;
+   }
+    
+} 
+
+
+
+
+@media all and (min-width:615px) and (max-width:715px){
+    nav {
+        display: flex;
+        background: black;
+        align-items: center;
+        width: 268.4%;
+        justify-content:space-around;
+    }
+    
+    #btn{
+        cursor: pointer;
+    }
+
+    nav>#logo{
+        width: 129px;
+    }
+
+    #lists{
+        width: 268.4%;
+   }
+
+   #carousel{
+        width: 268.4%;
+   }
+
+   #best-sellers{
+        width: 268.4%;
+   }
+   #hot-deals{
+        width: 268.4%;
+   }
+   #just-in{
+        width: 268.4%;
+   }
+   #youTube{
+        width: 268.4%;
+   }
+   #topPicks{
+        width: 268.4%;
+   }
+   #gifting{
+        width: 268.4%;
+   }
+   #referals{
+        width: 268.4%;
+   }
+   #savers{
+    width: 268%;
+   }
+
+   #skinCare{
+    width: 268%;
+   }
+   #carousel2{
+        width: 268.4%;
+   }
+   #thisThat{
+        width: 268.4%;
+        margin: 12px 30px;
+   }
+   #Blog{
+        width: 268.4%;
+   }
+   #carousel3{
+        width: 268.4%;
+   }
+   #main{
+        width: 268.4%;
+   }
+   #footer_up{
+        width: 268.4%;
+   }
+   #footer{
+        width: 268.4%;
+   }
+    
+    
+} 
+
+
+
+@media all and (min-width:715px) and (max-width:815px){
+    nav {
+        display: flex;
+        background: black;
+        align-items: center;
+        width: 268.4%;
+        justify-content:space-around;
+    }
+    
+    #btn{
+        cursor: pointer;
+    }
+
+    nav>#logo{
+        width: 129px;
+    }
+    
+} 
+
+
+@media all and (min-width:815px) and (max-width:915px){
+    nav {
+        display: flex;
+        background: black;
+        align-items: center;
+        width: 134.4%;
+        justify-content:space-around;
+    }
+    
+    #btn{
+        cursor: pointer;
+    }
+
+    nav>#logo{
+        width: 129px;
+    }
+    
+} 
+
+
+@media all and (min-width:915px) and (max-width:1015px){
+    nav {
+        display: flex;
+        background: black;
+        align-items: center;
+        width: 120.4%;
+        justify-content:space-around;
+    }
+    
+    #btn{
+        cursor: pointer;
+    }
+
+    nav>#logo{
+        width: 129px;
+    }
+    
+} 
+
+
+@media all and (min-width:1015px) and (max-width:1115px){
+    nav {
+        display: flex;
+        background: black;
+        align-items: center;
+        width: 134.4%;
+        justify-content:space-around;
+    }
+    
+    #btn{
+        cursor: pointer;
+    }
+
+    nav>#logo{
+        width: 129px;
+    }
+    
+} 
+
+
+@media all and (min-width:1115px) and (max-width:1215px){
+    nav {
+        display: flex;
+        background: black;
+        align-items: center;
+        width: 100.4%;
+        justify-content:space-around;
+    }
+    
+    #btn{
+        cursor: pointer;
+    }
+
+    nav>#logo{
+        width: 129px;
+    }
+    
+} 
+
+
+

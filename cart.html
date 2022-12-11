@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="icon" href="https://1000logos.net/wp-content/uploads/2020/07/SUGAR-Cosmetics-Logo1.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <style>
+
+        #append{
+            display: grid;
+            grid-template-columns: repeat(1fr);
+            gap: 30px 40px;
+            border: 1px solid black;
+            width: 90%;
+            margin: auto;
+        }
+        #append>div{
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            width: 70%;
+            margin: auto;
+            gap: 30px;
+        }
+        #append>div>img{
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav id="nav"></nav>
+
+    <div>
+        <h1 id="items"></h1>
+        <h1 id="price"></h1>
+       </div>
+    <div id="append">
+     
+    </div>
+
+
+
+    <footer id="footer"></footer>
+
+
+
+    <script type="module" src="./cart.js">
+
+    </script>
+</body>
+</html>

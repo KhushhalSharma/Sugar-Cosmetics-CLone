@@ -1,0 +1,20 @@
+
+#topPicks{
+    display: grid;
+    width: 90%;
+    margin:30px auto;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+#topPicks>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+#topPicks>div>img{
+    width: 80%;
+}
+
