@@ -2,7 +2,7 @@
 
 Clone of Sugar Cosmetics :- https://in.sugarcosmetics.com/
 
-Go live to see  project : https://boisterous-bavarois-f6f93a.netlify.app/ 
+Go live to see  project : [https://boisterous-bavarois-f6f93a.netlify.app/ ](https://sugar-cosmetics-ewc.netlify.app)
 
 ---You can search the product for ex :-eyeliner,Lipstick etc
 ---Add To Cart
